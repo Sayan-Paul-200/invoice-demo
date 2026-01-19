@@ -1,0 +1,82 @@
+$container-height: 550px;
+
+$ribbon-width: 5px;
+$ribbon-container-width: $ribbon-width * 3;
+
+.wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b993d6; 
+  background: -webkit-linear-gradient(to bottom, #8ca6db, #b993d6);
+  background: linear-gradient(to bottom, #8ca6db, #b993d6);
+}
+
+.registerBox {
+  height: $container-height;
+  width: 950px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  user-select: none;
+
+  .formContainer {
+    flex: 1;
+    background-color: #f3f4f7;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    height: $container-height - 50px;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .ribbon1 {
+    height: $container-height - 40px;
+    width: $ribbon-width;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #eea9a2;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.25);
+    z-index: 101;
+  }
+
+  .ribbon2 {
+    height: $container-height - 30px;
+    width: $ribbon-width;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #c36574;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.25);
+    z-index: 102;
+  }
+
+  .ribbon3 {
+    height: $container-height - 20px;
+    width: $ribbon-width;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #6b2c3a;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.25);
+    z-index: 103;
+  }
+
+  .animationContainer {
+    flex: 0 0 $container-height;
+    height: $container-height;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 110;
+  }
+}
+
+.buttonShadow {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  font-family: Outfit, sans-serif;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.user {
+  display: block;
+  width: 100%;
+  padding: var(--mantine-spacing-md);
+  color: light-dark(var(--mantine-color-dark), var(--mantine-color-dark-0));
+  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  text-align: left;
+  padding: 10px 5px;
+  border: 0px;
+
+  &:hover {
+    background-color: light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-8));
+  }
+}

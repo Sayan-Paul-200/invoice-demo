@@ -1,0 +1,9 @@
+{
+  "name": "iam",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/iam/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project iam --web",
+  "targets": {}
+}

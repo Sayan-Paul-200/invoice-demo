@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/app"
+    },
+    {
+      "path": "./packages/backend"
+    },
+    {
+      "path": "./libs/db"
+    },
+    {
+      "path": "./libs/iam"
+    }
+  ]
+}
