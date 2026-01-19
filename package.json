@@ -9,7 +9,7 @@
     "backend:dev": "dotenv -e config/.env.development -- cross-env NX_TUI=false nx run backend:serve",
     "iam:generate": "node scripts/generate-iam-keys.mts --overwrite-keys",
     "app:dev": "cross-env NX_TUI=false nx run app:dev",
-    "start": "npm run app:dev"
+    "start": "npm run app:dev dotenv -e config/.env.development"
   },
   "private": true,
   "dependencies": {
